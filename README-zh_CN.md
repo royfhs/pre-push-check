@@ -10,7 +10,7 @@
 
 </div>
 
-不要再推送密钥、遗漏 `.gitignore` 规则或提交不完整的 README 了。`pre-push-check` 是一个 [Claude Code 技能](https://docs.anthropic.com/en/docs/claude-code)，在代码公开之前充当质量门禁——系统性地检查三个方面，并提供自动修复。
+不要再推送密钥、遗漏 `.gitignore` 规则或提交不完整的 README 了。`pre-push-check` 是一个 [Claude Code 技能](https://code.claude.com/docs/en/skills#extend-claude-with-skills)，在代码公开之前充当质量门禁——系统性地检查三个方面，并提供自动修复。
 
 ## 特性
 

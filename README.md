@@ -10,7 +10,7 @@
 
 </div>
 
-Stop pushing secrets, missing `.gitignore` rules, or incomplete READMEs. `pre-push-check` is a [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code) that acts as a quality gate before your code goes public — it systematically checks three areas and offers to fix what it finds.
+Stop pushing secrets, missing `.gitignore` rules, or incomplete READMEs. `pre-push-check` is a [Claude Code skill](https://code.claude.com/docs/en/skills#extend-claude-with-skills) that acts as a quality gate before your code goes public — it systematically checks three areas and offers to fix what it finds.
 
 ## Features
 

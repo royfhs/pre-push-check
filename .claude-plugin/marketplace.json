@@ -1,0 +1,27 @@
+{
+  "name": "pre-push-check",
+  "owner": {
+    "name": "royfhs"
+  },
+  "metadata": {
+    "description": "Pre-push quality gate for Claude Code — scans .gitignore, secrets, and README compliance",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pre-push-check",
+      "source": "./",
+      "description": "Pre-push quality gate: scans .gitignore, secrets, and README compliance before pushing to GitHub. Also generates professional bilingual READMEs.",
+      "version": "1.0.0",
+      "author": {
+        "name": "royfhs"
+      },
+      "homepage": "https://github.com/royfhs/pre-push-check",
+      "repository": "https://github.com/royfhs/pre-push-check",
+      "license": "MIT",
+      "keywords": ["pre-push", "security", "gitignore", "secrets", "readme", "bilingual"],
+      "category": "security",
+      "tags": ["pre-push", "security", "gitignore", "secrets-scanning", "readme-generator", "bilingual"]
+    }
+  ]
+}

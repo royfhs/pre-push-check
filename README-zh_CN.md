@@ -36,7 +36,17 @@
 
 ## 快速开始
 
-### 安装为 Claude Code 技能
+### 通过 Plugin Marketplace 安装（推荐）
+
+```bash
+# 添加 marketplace
+/plugin marketplace add royfhs/pre-push-check
+
+# 安装插件
+/plugin install pre-push-check@pre-push-check
+```
+
+### 手动安装
 
 ```bash
 # 克隆到技能目录
@@ -107,9 +117,14 @@ git clone https://github.com/royfhs/pre-push-check.git ~/.claude/skills/pre-push
 
 ```
 pre-push-check/
-├── SKILL.md                    # Claude Code 技能定义
-├── references/
-│   └── readme-template.md      # README 生成模板
+├── .claude-plugin/
+│   ├── marketplace.json        # Plugin marketplace 目录
+│   └── plugin.json             # 插件清单
+├── skills/
+│   └── pre-push-check/
+│       ├── SKILL.md            # Claude Code 技能定义
+│       └── references/
+│           └── readme-template.md  # README 生成模板
 ├── README.md                   # 英文版
 ├── README-zh_CN.md             # 中文版（本文件）
 └── LICENSE                     # MIT 许可证

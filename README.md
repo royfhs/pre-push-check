@@ -36,7 +36,17 @@ Triggered when you ask to write or generate a README. Scans the project, generat
 
 ## Quick Start
 
-### Install as Claude Code Skill
+### Install via Plugin Marketplace (Recommended)
+
+```bash
+# Add the marketplace
+/plugin marketplace add royfhs/pre-push-check
+
+# Install the plugin
+/plugin install pre-push-check@pre-push-check
+```
+
+### Install Manually
 
 ```bash
 # Clone to your skills directory
@@ -107,9 +117,14 @@ Or trigger naturally:
 
 ```
 pre-push-check/
-├── SKILL.md                    # Claude Code skill definition
-├── references/
-│   └── readme-template.md      # README template for generation
+├── .claude-plugin/
+│   ├── marketplace.json        # Plugin marketplace catalog
+│   └── plugin.json             # Plugin manifest
+├── skills/
+│   └── pre-push-check/
+│       ├── SKILL.md            # Claude Code skill definition
+│       └── references/
+│           └── readme-template.md  # README generation template
 ├── README.md                   # This file
 ├── README-zh_CN.md             # Chinese version
 └── LICENSE                     # MIT License
